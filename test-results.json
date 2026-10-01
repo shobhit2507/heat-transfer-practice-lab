@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-01T20:16:31.871Z",
+  "checks": 855,
+  "questionScreenshots": 61,
+  "numericAdaptations": 32,
+  "statementAdaptations": 5,
+  "status": "passed",
+  "coverage": "All original keys, screenshot hashes, wrong/blank marking, numeric tolerance endpoints and invalid input, exact MSQ grading, calculator precedence/domain checks and conversions.",
+  "browserScenarios": [
+    "MCQ wrong/correct/retry and negative marking",
+    "Answer and note persistence after reload",
+    "Custom mixed set with deferred feedback",
+    "NAT input and exact MSQ combination",
+    "End-of-set grading: 2 correct, 59 skipped, score 4/122",
+    "Calculator real result and divide-by-zero handling",
+    "Question search for defective exchanger questions",
+    "Phone layout without horizontal overflow and mobile builder",
+    "Insights and session history",
+    "No browser console errors in exercised flows",
+    "Exported progress backup restored with answers and notes intact"
+  ],
+  "originalDocxIntegrity": "All 61 screenshot files byte-match the original DOCX media"
+}

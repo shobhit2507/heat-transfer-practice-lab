@@ -1,0 +1,2014 @@
+{
+  "date": "2026-10-02",
+  "method": "Independent engineering derivations, numerical recomputation, dimensional checks and primary teaching references. Not certified against official UPSC answer keys.",
+  "count": 61,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "year": 2017,
+      "paperQuestion": 19,
+      "type": "MCQ",
+      "image": "assets/questions/image1.png",
+      "title": "Heat flux through furnace lining",
+      "options": [
+        "30 J/m²/s",
+        "60 J/m²/s",
+        "60 J/s",
+        "30 J/s"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "q″ = kΔT/L = 0.03 × 200/0.1 = 60 W/m². Area is not specified, so the result is heat flux, not total heat rate.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          59.95,
+          60.05
+        ],
+        "unit": "W/m²",
+        "value": 60
+      },
+      "imageSha256": "9302bec7a355ab2e53cafd2d66339a029ce2790597b26b18e7ec138ab39143ff"
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "year": 2017,
+      "paperQuestion": 20,
+      "type": "MCQ",
+      "image": "assets/questions/image2.png",
+      "title": "Thermal resistance of a wall",
+      "options": [
+        "1.8 K/W",
+        "1.8 W/K",
+        "1 K/W",
+        "1 W/K"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "R = L/(kA) = 0.6/(0.4 × 1.5) = 1 K/W. The temperature difference affects heat rate, not resistance.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          0.995,
+          1.005
+        ],
+        "unit": "K/W",
+        "value": 1
+      },
+      "imageSha256": "e6b2b3856a75d72d084221fb3503398afdb5e87b12eabde92644b188bc513ebd"
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "year": 2018,
+      "paperQuestion": 8,
+      "type": "MCQ",
+      "image": "assets/questions/image3.png",
+      "title": "Heat flux through a plane wall",
+      "options": [
+        "63.75 W/m²",
+        "65.75 W/m²",
+        "70.25 W/m²",
+        "73.25 W/m²"
+      ],
+      "key": [
+        "A"
+      ],
+      "solution": "The heat-flux magnitude is k|ΔT|/L = 0.51 × 25/0.2 = 63.75 W/m². Heat flows from the hotter outside surface towards the cooler inside.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          63.7,
+          63.8
+        ],
+        "unit": "W/m²",
+        "value": 63.75
+      },
+      "imageSha256": "d315c270f70cdd348152975b35ec32befb55b9e798e3aa29c810a3d135993c98"
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "year": 2018,
+      "paperQuestion": 25,
+      "type": "MCQ",
+      "image": "assets/questions/image4.png",
+      "title": "Temperature difference across refractory",
+      "options": [
+        "280 °C",
+        "250 °C",
+        "240 °C",
+        "220 °C"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "180 kJ/(hr·m²) = 50 W/m². Hence ΔT = q″L/k = 50 × 0.2/0.04 = 250 °C.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          249.5,
+          250.5
+        ],
+        "unit": "°C",
+        "value": 250
+      },
+      "imageSha256": "84b3451a3393196d27871c1e6afe76a95430b821690e7dc71c75d4cccc0bf6cf"
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "year": 2022,
+      "paperQuestion": 85,
+      "type": "MCQ",
+      "image": "assets/questions/image5.png",
+      "title": "Volumetric heat generation in a wire",
+      "options": [
+        "212 W/cm³",
+        "312 W/cm³",
+        "512 W/cm³",
+        "412 W/cm³"
+      ],
+      "key": [
+        "A"
+      ],
+      "solution": "Use centimetres consistently: V = π(0.3²/4) × 80 = 5.6549 cm³. q‴ = 1200/V = 212.21 W/cm³, nearest option A.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          211.6065908,
+          212.8065908
+        ],
+        "unit": "W/cm³",
+        "value": 212.2065908
+      },
+      "imageSha256": "b30c9f8e491d06a6da850789d556f0662fa80e06a77610526405fc9543dd8b17"
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "year": 2022,
+      "paperQuestion": 86,
+      "type": "MCQ",
+      "image": "assets/questions/image6.png",
+      "title": "Heat diffusion equation in a cylinder",
+      "options": [
+        "(1/r) d/dr(r dT/dr) + g/k = 0",
+        "(1/2r) (dT/dr)(r dT/dr) + g/k = 0",
+        "(1/r) d/dr(dT/dr) + g/k = 0",
+        "(1/r) d/dr(r dT/dr) = 0"
+      ],
+      "key": [
+        "A"
+      ],
+      "solution": "For steady radial conduction in a solid cylinder with constant k and uniform volumetric generation g, energy balance gives (1/r) d/dr(r dT/dr) + g/k = 0. The generation term cannot be omitted.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "imageSha256": "f7464b371a408e08cd179f209c3b5b29ca62909942b1733768905c65c21d6686"
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "year": 2022,
+      "paperQuestion": 88,
+      "type": "MCQ",
+      "image": "assets/questions/image7.png",
+      "title": "Centre temperature of a heated wire",
+      "options": [
+        "136 °C",
+        "126 °C",
+        "146 °C",
+        "156 °C"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "Uniform generation gives T₀ − Tₛ = q‴r₀²/(4k), with q‴ = P/(πr₀²L). Thus T₀ = 105 + 2000/(4π × 15 × 0.5) = 126.22 °C.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          125.7206591,
+          126.7206591
+        ],
+        "unit": "°C",
+        "value": 126.2206591
+      },
+      "imageSha256": "01b6dabf2e8eb435dd1e4d5e1f8a4703c9297bdda600e3b4208db0bf4d4cd7f3"
+    },
+    {
+      "id": 8,
+      "chapter": 1,
+      "year": 2022,
+      "paperQuestion": 89,
+      "type": "MCQ",
+      "image": "assets/questions/image8.png",
+      "title": "Equivalent contact resistance thickness",
+      "options": [
+        "3.15 cm",
+        "5.13 cm",
+        "1.28 cm",
+        "2.15 cm"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "Contact resistance per unit area is 1/hc; plate resistance per unit area is L/k. Equating them gives L = k/hc = 237/11000 = 0.021545 m = 2.1545 cm.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          2.1445455,
+          2.1645455
+        ],
+        "unit": "cm",
+        "value": 2.1545455
+      },
+      "imageSha256": "cff84aeb8253f875bb3aad577327a48d49aaaa826d0f96dad6cbccb878f4aecb"
+    },
+    {
+      "id": 9,
+      "chapter": 1,
+      "year": 2022,
+      "paperQuestion": 91,
+      "type": "MCQ",
+      "image": "assets/questions/image9.png",
+      "title": "Lumped temperature assumption",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "A perfectly uniform internal temperature requires zero internal conduction resistance. The practical lumped approximation uses small, nonzero Biot number (commonly Bi < 0.1); the exact limiting answer here is 0.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "imageSha256": "d9045eefda8335f0e5a3ec27b18d8d9ca985c029a477a26043fba50b6a1a44c0"
+    },
+    {
+      "id": 10,
+      "chapter": 1,
+      "year": 2023,
+      "paperQuestion": 66,
+      "type": "MCQ",
+      "image": "assets/questions/image10.png",
+      "title": "Heat flux through a brick wall",
+      "options": [
+        "24.9 W/m²",
+        "34.9 W/m²",
+        "41.6 W/m²",
+        "51.6 W/m²"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "q″ = kΔT/L = 0.52 × (40 − 20)/0.25 = 41.6 W/m².",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          41.55,
+          41.65
+        ],
+        "unit": "W/m²",
+        "value": 41.6
+      },
+      "imageSha256": "3ac2bf2cbed95ec29cbf8193e8149040776a9945a746a4ae3b61bec1b85dd243"
+    },
+    {
+      "id": 11,
+      "chapter": 1,
+      "year": 2024,
+      "paperQuestion": 33,
+      "type": "MCQ",
+      "image": "assets/questions/image11.png",
+      "title": "Two-dimensional steady conduction",
+      "options": [
+        "d²T/dr² + q/k = 0",
+        "d²T/dx² + (1/r) dT/dr = 0",
+        "d²T/dx² = 0",
+        "∂²T/∂x² + ∂²T/∂y² = 0"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "In Cartesian coordinates, steady 2D conduction with constant conductivity and no heat generation gives the Laplace equation: ∂²T/∂x² + ∂²T/∂y² = 0.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "imageSha256": "51ba69b59e2a6f90b88fc0e4ac5bf9115e3128b76be2dab1efd9185081e9d22a"
+    },
+    {
+      "id": 12,
+      "chapter": 1,
+      "year": 2025,
+      "paperQuestion": 62,
+      "type": "MCQ",
+      "image": "assets/questions/image12.png",
+      "title": "Surface temperature from heat flux",
+      "options": [
+        "957.24 °C",
+        "1108.61 °C",
+        "682.17 °C",
+        "394.82 °C"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "Fourier law gives q″ = −k dT/dx = −25 × (−9000) = 225000 W/m². At the surface, q″ = h(Tₛ − T∞), so Tₛ = 30 + 225000/345 = 682.174 °C.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          682.123913,
+          682.223913
+        ],
+        "unit": "°C",
+        "value": 682.173913
+      },
+      "imageSha256": "4d0fbf1f6154a226346e2d7de42f707bc6f137f2e82164626b62f2a6b97387af"
+    },
+    {
+      "id": 13,
+      "chapter": 1,
+      "year": 2026,
+      "paperQuestion": 100,
+      "type": "MCQ",
+      "image": "assets/questions/image13.png",
+      "title": "Equivalent aluminium thickness",
+      "options": [
+        "1.185 cm",
+        "2.37 cm",
+        "3.55 cm",
+        "4.74 cm"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "Equate L/k = 1/hc. L = 237/10000 = 0.0237 m = 2.37 cm. The thickness of the existing plates is not needed for this equivalent resistance.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, conduction and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          2.365,
+          2.375
+        ],
+        "unit": "cm",
+        "value": 2.37
+      },
+      "imageSha256": "4405d76d7cb198ca6f231241103c51ef08625d10a95777a9cc739c0205a65268"
+    },
+    {
+      "id": 14,
+      "chapter": 2,
+      "year": 2017,
+      "paperQuestion": 40,
+      "type": "MCQ",
+      "image": "assets/questions/image14.png",
+      "title": "Symmetry of finite fins",
+      "options": [
+        "45 °C",
+        "50 °C",
+        "55 °C",
+        "60 °C"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "By symmetry, the midpoint of the 2l rod has zero axial temperature gradient. Each half has the same length, material, diameter, base temperature and environment as the shorter insulated-tip rod. Its midpoint temperature is therefore 55 °C.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, critical radius and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          54.9,
+          55.1
+        ],
+        "unit": "°C",
+        "value": 55
+      },
+      "imageSha256": "01dca10ba886c1255e3778f6a99b0190114a460177a64bc34c36325c648fed97"
+    },
+    {
+      "id": 15,
+      "chapter": 2,
+      "year": 2018,
+      "paperQuestion": 27,
+      "type": "MCQ",
+      "image": "assets/questions/image15.png",
+      "title": "Critical diameter of a spherical sheath",
+      "options": [
+        "20 mm",
+        "18 mm",
+        "16 mm",
+        "12 mm"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "For a sphere, critical outer radius r꜀ = 2k/h = 2 × 0.04/10 = 0.008 m. The critical diameter is 2r꜀ = 16 mm, not the thickness of insulation.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, critical radius and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          15.9,
+          16.1
+        ],
+        "unit": "mm",
+        "value": 16
+      },
+      "imageSha256": "544f199b88386bdc22940b0b66fd73fae2db24c12f6cdb567ff4be2120f8a5b8"
+    },
+    {
+      "id": 16,
+      "chapter": 2,
+      "year": 2019,
+      "paperQuestion": 19,
+      "type": "MCQ",
+      "image": "assets/questions/image16.png",
+      "title": "Insulation thickness for maximum heat loss",
+      "options": [
+        "15.25 mm",
+        "16.50 mm",
+        "17.75 mm",
+        "18.25 mm"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "For a cylinder, r꜀ = k/h = 0.174/8 = 0.02175 m = 21.75 mm. Existing wire radius is 8/2 = 4 mm. Insulation thickness = 21.75 − 4 = 17.75 mm.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, critical radius and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          17.7,
+          17.8
+        ],
+        "unit": "mm",
+        "value": 17.75
+      },
+      "imageSha256": "9a7e98827a2463e06fc8c9628e168cc4eebcbbff87d88be3b5b0d7710478b14e"
+    },
+    {
+      "id": 17,
+      "chapter": 2,
+      "year": 2020,
+      "paperQuestion": 21,
+      "type": "MCQ",
+      "image": "assets/questions/image17.png",
+      "title": "Purpose of fins",
+      "options": [
+        "Increase temperature gradient",
+        "Increase effective surface area",
+        "Increase turbulence",
+        "Increase pressure drop"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "A fin provides additional exposed area, increasing convective heat transfer when the fin is effective. Its primary purpose is to enlarge the effective surface area.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, critical radius and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "imageSha256": "91615a200d2cad869f3de018f9c1c401ba7122f610a92084348fbfb08b02317f"
+    },
+    {
+      "id": 18,
+      "chapter": 2,
+      "year": 2021,
+      "paperQuestion": 60,
+      "type": "MCQ",
+      "image": "assets/questions/image18.png",
+      "title": "Critical radius around a circular pipe",
+      "options": [
+        "7.21 cm",
+        "6.37 cm",
+        "5.67 cm",
+        "6.93 cm"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "For a circular pipe, r꜀ = k/h = 0.17/3 = 0.056667 m = 5.67 cm. This is the critical outer radius, not the added insulation thickness.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, critical radius and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "nat": {
+        "range": [
+          5.6566667,
+          5.6766667
+        ],
+        "unit": "cm",
+        "value": 5.6666667
+      },
+      "imageSha256": "d8ea6a8fab8c7843806bc0b5306f97dd5eb8080eeb57eb88ff11654c98febd0c"
+    },
+    {
+      "id": 19,
+      "chapter": 2,
+      "year": 2022,
+      "paperQuestion": 90,
+      "type": "MCQ",
+      "image": "assets/questions/image19.png",
+      "title": "One-dimensional fin validity",
+      "options": [
+        "hδ/k < 0.2",
+        "hk/δ < 0.2",
+        "hδ/k < 2",
+        "hk/δ < 2"
+      ],
+      "key": [
+        "A"
+      ],
+      "solution": "Transverse temperature differences must be small for a one-dimensional fin model. The stated criterion uses hδ/k < 0.2, a dimensionless transverse Biot-type quantity. hk/δ is not dimensionless.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat transfer, critical radius and fins",
+          "url": "https://nptel.ac.in/courses/112101003"
+        }
+      ],
+      "imageSha256": "f5ac5e9efa29680682014194e00f11319e3da4c5a5d312d8ccd000e168d7963b"
+    },
+    {
+      "id": 20,
+      "chapter": 3,
+      "year": 2017,
+      "paperQuestion": 21,
+      "type": "MCQ",
+      "image": "assets/questions/image20.png",
+      "title": "Nusselt number and convection coefficient",
+      "options": [
+        "7.5 W/m²·K",
+        "15 W/m²·K",
+        "25 W/m²·K",
+        "35 W/m²·K"
+      ],
+      "key": [
+        "A"
+      ],
+      "solution": "Nu = hD/k, so h = Nu k/D = 25 × 0.03/0.1 = 7.5 W/(m²·K).",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          7.49,
+          7.51
+        ],
+        "unit": "W/m²·K",
+        "value": 7.5
+      },
+      "imageSha256": "f124bccab88e22e2769d33199ae64bb4771d08716f2015a5bc93def864851cff"
+    },
+    {
+      "id": 21,
+      "chapter": 3,
+      "year": 2017,
+      "paperQuestion": 22,
+      "type": "MCQ",
+      "image": "assets/questions/image21.png",
+      "title": "Convective heat loss from a sphere",
+      "options": [
+        "1.93 J/s",
+        "1.76 J/s",
+        "1.65 J/s",
+        "1.54 J/s"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "h = Nu k/D. Sphere area A = πD². Thus Q = Nu k πD ΔT = 31.4 × 0.026 × π × 0.012 × 50 = 1.539 W, nearest option D.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          1.5288777,
+          1.5488777
+        ],
+        "unit": "W",
+        "value": 1.5388777
+      },
+      "imageSha256": "f24620f973a61d9d3184003cd90e0aff2bc57c735ab022ab14d59d51d5ea84ee"
+    },
+    {
+      "id": 22,
+      "chapter": 3,
+      "year": 2018,
+      "paperQuestion": 26,
+      "type": "MCQ",
+      "image": "assets/questions/image22.png",
+      "title": "Forced-convection dimensionless groups",
+      "options": [
+        "Re and Gr",
+        "Pr and Gr",
+        "Re and Pr",
+        "Re, Gr and Pr"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "For forced convection with buoyancy neglected and geometry fixed, Nu is correlated with Reynolds and Prandtl numbers. Grashof number characterizes buoyancy-driven flow.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "imageSha256": "8cce3a05b8d206837f1e6f70baa49908c87fee57f37c01566d404cc4813e217d"
+    },
+    {
+      "id": 23,
+      "chapter": 3,
+      "year": 2019,
+      "paperQuestion": 20,
+      "type": "MCQ",
+      "image": "assets/questions/image23.png",
+      "title": "Liquid metal boundary layers",
+      "options": [
+        "Lower Nusselt number",
+        "Higher Prandtl number",
+        "Lower Prandtl number",
+        "Higher Nusselt number"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "Pr = ν/α. Liquid metals have very high thermal diffusivity and therefore low Prandtl number; thermal diffusion extends beyond the momentum boundary layer.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "imageSha256": "7a52524287216f5a43a73d82e39e5c0566bdbaf8130e964640df42a3b5f55f2c"
+    },
+    {
+      "id": 24,
+      "chapter": 3,
+      "year": 2022,
+      "paperQuestion": 92,
+      "type": "MCQ",
+      "image": "assets/questions/image24.png",
+      "title": "Fluid properties in convection",
+      "options": [
+        "Dynamic viscosity",
+        "Thermal conductivity",
+        "Density",
+        "Rate of convection"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "Dynamic viscosity, conductivity and density are fluid properties entering convection correlations. Rate of convection is the resulting heat-transfer rate, not a fluid property.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "imageSha256": "2916d99e32d4b60c391a1198c3941a6d39c45533112999dce7f6ee5ab0a7ae3b"
+    },
+    {
+      "id": 25,
+      "chapter": 3,
+      "year": 2022,
+      "paperQuestion": 93,
+      "type": "MCQ",
+      "image": "assets/questions/image25.png",
+      "title": "Turbulent flat-plate correlations",
+      "options": [
+        "δ = 5x/Reₓ^0.5; Cƒ = 0.664/Reₓ^0.5",
+        "δ = 0.382x/Reₓ^0.5; Cƒ = 0.0592/Reₓ^0.5",
+        "δ = 0.382x/Reₓ^(1/5); Cƒ = 0.0592/Reₓ^(1/5)",
+        "δ = 5x/Reₓ^(1/5); Cƒ = 0.664/Reₓ^(1/5)"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "For a turbulent flat-plate boundary layer, the conventional local correlations scale with Reₓ^(−1/5): δ ≈ 0.382x/Reₓ^(1/5), Cƒ ≈ 0.0592/Reₓ^(1/5). The 0.664/Reₓ^0.5 expression belongs to laminar flow.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "imageSha256": "018770b0afbf2da91e95aa16137969dde512778a9b21dd9b13604a723e7d2e29"
+    },
+    {
+      "id": 26,
+      "chapter": 3,
+      "year": 2022,
+      "paperQuestion": 94,
+      "type": "MCQ",
+      "image": "assets/questions/image26.png",
+      "title": "Hydrodynamic entrance region",
+      "options": [
+        "Hydrodynamic entry length",
+        "Thermal entrance region",
+        "Hydrodynamic entrance region",
+        "Thermal entry length"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "The hydrodynamic entrance region is the portion of the tube where the velocity boundary layer develops until it meets at the centreline. Entry length measures the length of that region; the question asks for the region.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "imageSha256": "67c430b7d6320d6e7116ddfe93272bb0b45b9d421931c1723861fee132026d34"
+    },
+    {
+      "id": 27,
+      "chapter": 3,
+      "year": 2022,
+      "paperQuestion": 95,
+      "type": "MCQ",
+      "image": "assets/questions/image27.png",
+      "title": "Dittus–Boelter correlation",
+      "options": [
+        "Nu = 0.023 Re^0.8 Pr^n",
+        "Nu = 0.023 Re^0.4 Pr^(2n)",
+        "Nu = 0.023 Re^0.8 Pr^(2n)",
+        "Nu = 0.023 Re^0.4 Pr^n"
+      ],
+      "key": [
+        "A"
+      ],
+      "solution": "The Dittus–Boelter form is NuD = 0.023 ReD^0.8 Pr^n. Conventionally n = 0.4 for heating the fluid and 0.3 for cooling, within the correlation’s applicability limits.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "imageSha256": "78fe1d676a990e2dc92898ae7cdc749650f6c276e0c742b14cb32f92c6438fa3"
+    },
+    {
+      "id": 28,
+      "chapter": 3,
+      "year": 2023,
+      "paperQuestion": 67,
+      "type": "MCQ",
+      "image": "assets/questions/image28.png",
+      "title": "Reynolds number of hot water flow",
+      "options": [
+        "31340",
+        "44680",
+        "48450",
+        "51230"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "Use the inside diameter and convert velocity: 25 cm/s = 0.25 m/s. Re = ρVD/μ = 960 × 0.25 × 0.0525/(2.82×10⁻⁴) = 44680.85, nearest option B.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          44678.8510638,
+          44682.8510638
+        ],
+        "unit": "dimensionless",
+        "value": 44680.8510638
+      },
+      "imageSha256": "4d46b99cb8586cbb526675421a26245d92e680061bff1a2a60eff1cf7a4c51e0"
+    },
+    {
+      "id": 29,
+      "chapter": 3,
+      "year": 2023,
+      "paperQuestion": 68,
+      "type": "MCQ",
+      "image": "assets/questions/image29.png",
+      "title": "Tube-side convection coefficient",
+      "options": [
+        "1961 W/m²·°C",
+        "1961 W/m²·K",
+        "1348 W/m²·°C",
+        "1348 W/m²·K"
+      ],
+      "key": [
+        "A",
+        "B"
+      ],
+      "solution": "h = Nu k/D = 151.4 × 0.68/0.0525 = 1960.99 W/(m²·K). A temperature difference of 1 °C equals a difference of 1 K, so printed options A and B are physically equivalent. Either receives full credit in this practice lab.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          1958.9904762,
+          1962.9904762
+        ],
+        "unit": "W/m²·K",
+        "value": 1960.9904762
+      },
+      "editorial": "Printed choices A and B use equivalent temperature-difference units. Either is accepted for full credit.",
+      "imageSha256": "41fb713ad68de0448b41d13a0225990dd5d54f18cb800ee53d291b43e82bd8f8"
+    },
+    {
+      "id": 30,
+      "chapter": 3,
+      "year": 2024,
+      "paperQuestion": 34,
+      "type": "MCQ",
+      "image": "assets/questions/image30.png",
+      "title": "Rayleigh, Grashof and Prandtl numbers",
+      "options": [
+        "Ra = Gr Pr",
+        "Gr = Ra Pr",
+        "Ra = Gr − Pr",
+        "Gr = Ra − Pr"
+      ],
+      "key": [
+        "A"
+      ],
+      "solution": "By definition, Rayleigh number is the product of Grashof and Prandtl numbers: Ra = Gr Pr.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "imageSha256": "fcd774133d7fb49cc5e6818053dcc66846562078a03d17c2ec17f2200f9ee14a"
+    },
+    {
+      "id": 31,
+      "chapter": 3,
+      "year": 2024,
+      "paperQuestion": 35,
+      "type": "MCQ",
+      "image": "assets/questions/image31.png",
+      "title": "Natural-convection dominance",
+      "options": [
+        "Gr/Re² < 10: free convection dominates",
+        "Gr/Re² = 10: free convection dominates",
+        "Gr/Re² > 10: free convection dominates",
+        "Gr/Re² > 10: forced convection dominates"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "Ri = Gr/Re² compares buoyancy with inertia. Natural convection dominates for Ri > 10; forced convection dominates for Ri < 0.1. The middle range involves mixed convection.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "Rose-Hulman · Combined forced/natural convection",
+          "url": "https://www.rose-hulman.edu/~adams1/courses/me462/other/map/combined.html"
+        }
+      ],
+      "imageSha256": "851353800a582fb5b8f5a95c548b0c5403c0e3d643e556e837b1fcdecd10a6e8"
+    },
+    {
+      "id": 32,
+      "chapter": 3,
+      "year": 2025,
+      "paperQuestion": 63,
+      "type": "MCQ",
+      "image": "assets/questions/image32.png",
+      "title": "Factors affecting convection coefficient",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "Convection coefficient depends on fluid properties (including viscosity), flow velocity and surface geometry. All three statements are correct.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "msq": {
+        "options": [
+          "Statement 1: viscosity affects h",
+          "Statement 2: flow velocity affects h",
+          "Statement 3: surface geometry affects h"
+        ],
+        "key": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "imageSha256": "f8b7b23351e996c6eb483ee6a64d7bc97644562db338bb9d4bb9edee92f2c2d8"
+    },
+    {
+      "id": 33,
+      "chapter": 3,
+      "year": 2026,
+      "paperQuestion": 94,
+      "type": "MCQ",
+      "image": "assets/questions/image33.png",
+      "title": "Heater temperature at reduced heat flux",
+      "options": [
+        "60 °C",
+        "70 °C",
+        "80 °C",
+        "90 °C"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "Assuming the convection coefficient stays constant, h = 5000/(130 − 50) = 62.5 W/(m²·K). Then Tₛ = 50 + 2500/62.5 = 90 °C.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          89.9,
+          90.1
+        ],
+        "unit": "°C",
+        "value": 90
+      },
+      "editorial": "Practice assumption: take the convection coefficient as constant when the power changes.",
+      "imageSha256": "7d5354cebfed9f7eed3b6d99feb90062b66f90fa62a7eb08a28277ffd8a7fcb7"
+    },
+    {
+      "id": 34,
+      "chapter": 3,
+      "year": 2026,
+      "paperQuestion": 96,
+      "type": "MCQ",
+      "image": "assets/questions/image34.png",
+      "title": "Laminar natural-convection range",
+      "options": [
+        "Ra = 1",
+        "10² < Ra < 10⁴",
+        "10⁴ < Ra < 10⁹",
+        "10⁹ < Ra < 10¹⁶"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "The conventional laminar natural-convection correlation for a vertical plate is commonly used over 10⁴ < RaL < 10⁹. Transition near 10⁹ depends on geometry and disturbances; this is not a universal criterion for every flow.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Flow classifications",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112101002/downloads/l2.pdf"
+        }
+      ],
+      "editorial": "Interpret the listed range as the conventional vertical-plate natural-convection range; geometry is not specified in the printed question.",
+      "imageSha256": "e9863ab672bf137573cb2c4d1f3dad6b4f38d3d0b5b9cc69761866b22012e36b"
+    },
+    {
+      "id": 35,
+      "chapter": 4,
+      "year": 2017,
+      "paperQuestion": 31,
+      "type": "MCQ",
+      "image": "assets/questions/image35.png",
+      "title": "Non-condensable air in condensers",
+      "options": [
+        "1, 2, 3 and 4",
+        "1, 2 and 3 only",
+        "3 and 4 only",
+        "1, 2 and 4 only"
+      ],
+      "key": [
+        "A"
+      ],
+      "solution": "Air remains non-condensable, accumulates near the condensing interface, adds diffusion/thermal resistance and reduces the condensation coefficient. The four listed statements describe those effects.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Non-condensable gases and condensation",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/103103032/module6/lec25/4.html"
+        }
+      ],
+      "msq": {
+        "options": [
+          "Statement 1: air remains non-condensable",
+          "Statement 2: air reduces condensation coefficient",
+          "Statement 3: air accumulates near the surface",
+          "Statement 4: air adds resistance"
+        ],
+        "key": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "imageSha256": "be878c3ca698b25fb4374bf0754a3070bbd2ef5bfadb49345d47cac52b068e9c"
+    },
+    {
+      "id": 36,
+      "chapter": 4,
+      "year": 2018,
+      "paperQuestion": 6,
+      "type": "MCQ",
+      "image": "assets/questions/image36.png",
+      "title": "Film boiling and condensation",
+      "options": [
+        "Free convection boiling",
+        "Nucleate boiling",
+        "Transition boiling",
+        "Film boiling"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "Film boiling places a continuous vapour layer between the wall and liquid. Film condensation places a condensate layer between wall and vapour. In this film-mediated sense, film boiling is the reverse analogue of film condensation.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Condensation and boiling",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M8/M8TeacherSlides.pdf"
+        },
+        {
+          "title": "Srinix · Boiling and condensation teaching notes",
+          "url": "https://www.srinix.org/lecture_notes/Q%26A/HT%28MOD-4%29QA.pdf"
+        }
+      ],
+      "imageSha256": "99497dd5c838df82535e400414d4e4f741ff05e80dd9275ea19f1b538283a6ab"
+    },
+    {
+      "id": 37,
+      "chapter": 4,
+      "year": 2019,
+      "paperQuestion": 22,
+      "type": "MCQ",
+      "image": "assets/questions/image37.png",
+      "title": "Nusselt condensation assumptions",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "Nusselt’s classical laminar-film model neglects inertia relative to viscous and gravity forces and treats heat transport through the film as conduction. It assumes negligible vapour shear, not very high vapour velocity. Statements 1 and 2 are correct.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Condensation and boiling",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M8/M8TeacherSlides.pdf"
+        },
+        {
+          "title": "Srinix · Boiling and condensation teaching notes",
+          "url": "https://www.srinix.org/lecture_notes/Q%26A/HT%28MOD-4%29QA.pdf"
+        }
+      ],
+      "msq": {
+        "options": [
+          "Statement 1: film inertia is negligible",
+          "Statement 2: heat crosses the film mainly by conduction",
+          "Statement 3: vapour velocity is very high"
+        ],
+        "key": [
+          "A",
+          "B"
+        ]
+      },
+      "imageSha256": "4d02b908bbfdba08308207294b7c8bd6b87743ae402837a4b4ee072fd21d2f86"
+    },
+    {
+      "id": 38,
+      "chapter": 4,
+      "year": 2019,
+      "paperQuestion": 23,
+      "type": "MCQ",
+      "image": "assets/questions/image38.png",
+      "title": "Why transition-boiling heat flux falls",
+      "options": [
+        "1 only",
+        "2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "Beyond critical heat flux, increasing vapour coverage impedes contact between liquid and heater. Vapour has lower conductivity than liquid, so the transition-boiling heat flux falls. Statement 2 explains this; statement 1 gives an inappropriate temperature range and statement 3 does not describe the mechanism.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Condensation and boiling",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M8/M8TeacherSlides.pdf"
+        },
+        {
+          "title": "Srinix · Boiling and condensation teaching notes",
+          "url": "https://www.srinix.org/lecture_notes/Q%26A/HT%28MOD-4%29QA.pdf"
+        }
+      ],
+      "msq": {
+        "options": [
+          "Statement 1 as printed",
+          "Statement 2 as printed",
+          "Statement 3 as printed"
+        ],
+        "key": [
+          "B"
+        ]
+      },
+      "imageSha256": "38fb09dd445bb301308a6017c5f5f53d9c8e8d302c5ebcb97d072753261dec26"
+    },
+    {
+      "id": 39,
+      "chapter": 4,
+      "year": 2020,
+      "paperQuestion": 24,
+      "type": "MCQ",
+      "image": "assets/questions/image39.png",
+      "title": "Promoting high condensation coefficients",
+      "options": [
+        "Film condensation",
+        "Dropwise condensation",
+        "Cloud condensation",
+        "Dew condensation"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "Dropwise condensation repeatedly exposes parts of the surface instead of maintaining an insulating liquid film, producing larger heat-transfer coefficients.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Condensation and boiling",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M8/M8TeacherSlides.pdf"
+        },
+        {
+          "title": "Srinix · Boiling and condensation teaching notes",
+          "url": "https://www.srinix.org/lecture_notes/Q%26A/HT%28MOD-4%29QA.pdf"
+        }
+      ],
+      "imageSha256": "8daa0504d55464659097caa89e8b0d3658041c8962255e7873a88e107c0748fc"
+    },
+    {
+      "id": 40,
+      "chapter": 4,
+      "year": 2021,
+      "paperQuestion": 44,
+      "type": "MCQ",
+      "image": "assets/questions/image40.png",
+      "title": "Air-cooled condenser temperature",
+      "options": [
+        "24.31 °C",
+        "35.82 °C",
+        "42.45 °C",
+        "56.94 °C"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "Q = hA(Tref − Troom). Using the consistent kJ/hr units: Tref = 25 + 5235/(50 × 6) = 42.45 °C.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Condensation and boiling",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M8/M8TeacherSlides.pdf"
+        },
+        {
+          "title": "Srinix · Boiling and condensation teaching notes",
+          "url": "https://www.srinix.org/lecture_notes/Q%26A/HT%28MOD-4%29QA.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          42.4,
+          42.5
+        ],
+        "unit": "°C",
+        "value": 42.45
+      },
+      "imageSha256": "1eaa31d7dbdc4b708709b5eeac5a6f9c25f8ea023284eacdbe19ff98fa659a38"
+    },
+    {
+      "id": 41,
+      "chapter": 4,
+      "year": 2021,
+      "paperQuestion": 49,
+      "type": "MCQ",
+      "image": "assets/questions/image41.png",
+      "title": "Nucleate boiling statements",
+      "options": [
+        "1 only",
+        "2 only",
+        "1 and 3 only",
+        "2 and 3 only"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "Nucleate boiling gives high heat-transfer rates, and heat flux rises strongly with surface superheat. A blanket upper limit of 1 MW/m² for water is false; critical heat flux depends on conditions. Statements 2 and 3 are correct.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Condensation and boiling",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M8/M8TeacherSlides.pdf"
+        },
+        {
+          "title": "Srinix · Boiling and condensation teaching notes",
+          "url": "https://www.srinix.org/lecture_notes/Q%26A/HT%28MOD-4%29QA.pdf"
+        }
+      ],
+      "msq": {
+        "options": [
+          "Statement 1 as printed",
+          "Statement 2 as printed",
+          "Statement 3 as printed"
+        ],
+        "key": [
+          "B",
+          "C"
+        ]
+      },
+      "imageSha256": "32923500829fa168e7cdeb248a3200eded6dd85357eef14ded0feba73e70ad1b"
+    },
+    {
+      "id": 42,
+      "chapter": 4,
+      "year": 2021,
+      "paperQuestion": 50,
+      "type": "MCQ",
+      "image": "assets/questions/image42.png",
+      "title": "Dropwise versus filmwise condensation",
+      "options": [
+        "5 times less",
+        "15 times less",
+        "25 times more",
+        "10 times more"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "The intended textbook comparison is about 10 times the filmwise condensation rate, so D is the best listed choice. This factor is approximate and depends on the surface and operating conditions, not a universal constant.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Condensation and boiling",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M8/M8TeacherSlides.pdf"
+        },
+        {
+          "title": "Srinix · Boiling and condensation teaching notes",
+          "url": "https://www.srinix.org/lecture_notes/Q%26A/HT%28MOD-4%29QA.pdf"
+        }
+      ],
+      "editorial": "The multiplier is an approximate textbook comparison, not a universal physical constant.",
+      "imageSha256": "cbe08a3c944b3bc5bd618ebd13f34d5e2c4de7897c3e5dbe7b098c3bd3a21bb8"
+    },
+    {
+      "id": 43,
+      "chapter": 4,
+      "year": 2022,
+      "paperQuestion": 87,
+      "type": "MCQ",
+      "image": "assets/questions/image43.png",
+      "title": "Electrical power during boiling",
+      "options": [
+        "21.99 W",
+        "32.39 W",
+        "42.39 W",
+        "52.36 W"
+      ],
+      "key": [
+        "A"
+      ],
+      "solution": "Use the wire’s lateral area A = πDL = π × 0.001 × 0.1 m². P = hAΔT = 5000 × A × (114 − 100) = 21.991 W.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Condensation and boiling",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M8/M8TeacherSlides.pdf"
+        },
+        {
+          "title": "Srinix · Boiling and condensation teaching notes",
+          "url": "https://www.srinix.org/lecture_notes/Q%26A/HT%28MOD-4%29QA.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          21.9411486,
+          22.0411486
+        ],
+        "unit": "W",
+        "value": 21.9911486
+      },
+      "imageSha256": "d0d3d4ea1e1ceefea7acc89b66767ab09019c7482a8ec32f00917a9c57d15117"
+    },
+    {
+      "id": 44,
+      "chapter": 4,
+      "year": 2026,
+      "paperQuestion": 97,
+      "type": "MCQ",
+      "image": "assets/questions/image44.png",
+      "title": "Boiling coefficient of a submerged wire",
+      "options": [
+        "100/π W/m²·°C",
+        "1000/π W/m²·°C",
+        "10000/π W/m²·°C",
+        "100000/π W/m²·°C"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "P = VI = 2.5 × 100 = 250 W. Lateral area A = π × 0.002 × 0.25 m²; ΔT = 200 − 150 = 50 °C. Thus h = 250/(A × 50) = 10000/π W/(m²·°C).",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Condensation and boiling",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M8/M8TeacherSlides.pdf"
+        },
+        {
+          "title": "Srinix · Boiling and condensation teaching notes",
+          "url": "https://www.srinix.org/lecture_notes/Q%26A/HT%28MOD-4%29QA.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          3181.0988618,
+          3185.0988618
+        ],
+        "unit": "W/m²·K",
+        "value": 3183.0988618
+      },
+      "imageSha256": "8182e8728341eea2c78b9881ef62b19a443848023fb31a78a3c5a71aaf7aa156"
+    },
+    {
+      "id": 45,
+      "chapter": 5,
+      "year": 2017,
+      "paperQuestion": 23,
+      "type": "MCQ",
+      "image": "assets/questions/image45.png",
+      "title": "Sphere inside a cubical enclosure",
+      "options": [
+        "1 and π/3",
+        "π/3 and 1",
+        "1 and π/6",
+        "π/6 and 1"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "The convex sphere sees only the enclosure: F₁₂ = 1. Sphere area A₁ = πd² and inner cube area A₂ = 6d². Reciprocity gives F₂₁ = A₁F₁₂/A₂ = π/6.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Radiation properties and view factors",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M9/M9TeacherSlides.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          0.5215988,
+          0.5255988
+        ],
+        "unit": "F₂₁",
+        "value": 0.5235988
+      },
+      "imageSha256": "7ef5dffb5791afdc3f029f50c418c66fa063b6145b29a3bb084eed9ee64f7f34"
+    },
+    {
+      "id": 46,
+      "chapter": 5,
+      "year": 2019,
+      "paperQuestion": 18,
+      "type": "MCQ",
+      "image": "assets/questions/image46.png",
+      "title": "Combined radiation and convection heat loss",
+      "options": [
+        "896.6 W/m",
+        "818.8 W/m",
+        "786.4 W/m",
+        "742.2 W/m"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "Per unit length, Q/L = πD[h(Tₛ − T∞) + εσ(Tₛ⁴ − Tsur⁴)]. Use kelvin for radiation: Tₛ ≈ 523 K, Tsur ≈ 303 K. Substitution gives about 818.8 W/m, option B.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Radiation properties and view factors",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M9/M9TeacherSlides.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          817.6071666,
+          819.6071666
+        ],
+        "unit": "W/m",
+        "value": 818.6071666
+      },
+      "imageSha256": "6de84096a85f7c3347e580be0ca303c6287887f41d5ded8455874bf5f9bb572a"
+    },
+    {
+      "id": 47,
+      "chapter": 5,
+      "year": 2019,
+      "paperQuestion": 21,
+      "type": "MCQ",
+      "image": "assets/questions/image47.png",
+      "title": "Wavelength of maximum emission",
+      "options": [
+        "2.3 μm",
+        "3.2 μm",
+        "4.1 μm",
+        "5.0 μm"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "Wien displacement gives λmax = 2898/T = 2898/900 = 3.22 μm, nearest option B. Surface area does not affect the peak wavelength.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Radiation properties and view factors",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M9/M9TeacherSlides.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          3.2,
+          3.24
+        ],
+        "unit": "μm",
+        "value": 3.22
+      },
+      "imageSha256": "b6750b564dc9ee5631e6d0879f69b6f5de7335af62819d3d4e5da1deb468c60f"
+    },
+    {
+      "id": 48,
+      "chapter": 5,
+      "year": 2019,
+      "paperQuestion": 24,
+      "type": "MCQ",
+      "image": "assets/questions/image48.png",
+      "title": "View factor of a hemispherical furnace",
+      "options": [
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "The flat floor cannot see itself, hence F₂₁ = 1. Roof area is 2πr² and floor area is πr². Reciprocity gives F₁₂ = A₂/A₁ = 0.5; temperature and emissivity do not determine view factors.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Radiation properties and view factors",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M9/M9TeacherSlides.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          0.495,
+          0.505
+        ],
+        "unit": "dimensionless",
+        "value": 0.5
+      },
+      "imageSha256": "eed58e88ddb5971fcf2e2dfe20d884733be7c290af6ed8efe0a281ee54903bb3"
+    },
+    {
+      "id": 49,
+      "chapter": 5,
+      "year": 2020,
+      "paperQuestion": 23,
+      "type": "MCQ",
+      "image": "assets/questions/image49.png",
+      "title": "Linearized radiation coefficient",
+      "options": [
+        "17 W/m²·K",
+        "14 W/m²·K",
+        "11 W/m²·K",
+        "8 W/m²·K"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "The radiation coefficient is hr = εσ(Tₛ + Tsur)(Tₛ² + Tsur²). With Tₛ ≈ 473 K, Tsur ≈ 303 K, ε = 0.8 and σ = 5.67×10⁻⁸, hr ≈ 11.11 W/(m²·K). Do not use the overall 17.95 as the radiation coefficient.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Radiation properties and view factors",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M9/M9TeacherSlides.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          11.0567357,
+          11.1567357
+        ],
+        "unit": "W/m²·K",
+        "value": 11.1067357
+      },
+      "imageSha256": "d18d9f94a45f2e71a5a4c83985cab22267d9da863ef194f1004405e1fc241416"
+    },
+    {
+      "id": 50,
+      "chapter": 5,
+      "year": 2024,
+      "paperQuestion": 36,
+      "type": "MCQ",
+      "image": "assets/questions/image50.png",
+      "title": "Definition of a gray body",
+      "options": [
+        "Transparent body",
+        "Reflective body",
+        "Black body",
+        "Gray body"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "A gray-body model has spectral emissivity independent of wavelength. A black body is the special ideal case with emissivity equal to one.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Radiation properties and view factors",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M9/M9TeacherSlides.pdf"
+        }
+      ],
+      "imageSha256": "a8d3f6ab9ff7b44db339435fe0460f4d9f9934fafa28e9b0ab2c68f82f9a5448"
+    },
+    {
+      "id": 51,
+      "chapter": 5,
+      "year": 2024,
+      "paperQuestion": 37,
+      "type": "MCQ",
+      "image": "assets/questions/image51.png",
+      "title": "Emissivity ratio in the printed identity",
+      "options": [
+        "ε = E/Eb",
+        "ε = Eb/E",
+        "ε = ∞",
+        "ε = 1"
+      ],
+      "key": [
+        "A"
+      ],
+      "solution": "Among the printed options, ε = E/Eb is the emissivity definition and is the intended answer. The physical Kirchhoff law concerns equality of emissivity and absorptivity under the appropriate equilibrium/spectral conditions; the wording here is imprecise.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Radiation properties and view factors",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M9/M9TeacherSlides.pdf"
+        }
+      ],
+      "editorial": "The printed terminology is imprecise. Choose the intended emissivity ratio from the available options; the solution explains Kirchhoff’s law.",
+      "imageSha256": "0855954394b26060ca49424d2729cf4962a67cf7788f2434cf9e3756cc24fad9"
+    },
+    {
+      "id": 52,
+      "chapter": 5,
+      "year": 2026,
+      "paperQuestion": 95,
+      "type": "MCQ",
+      "image": "assets/questions/image52.png",
+      "title": "Emittance of real bodies",
+      "options": [
+        "ε = 1, ελ = 0",
+        "ε = ελ = 1",
+        "0 < ε < 1 and 0 < ελ < 1",
+        "ε = 0, ελ = 1"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "For ordinary non-ideal radiating surfaces, total and spectral emissivities lie between zero and one. Unity describes an ideal black body. The printed symbol ε denotes emissivity here.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Radiation properties and view factors",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M9/M9TeacherSlides.pdf"
+        }
+      ],
+      "imageSha256": "1f7e6d6eda5ca15b13ef703b9d078d9111524833aaa2d77ade5e518796501034"
+    },
+    {
+      "id": 53,
+      "chapter": 5,
+      "year": 2026,
+      "paperQuestion": 99,
+      "type": "MCQ",
+      "image": "assets/questions/image53.png",
+      "title": "View factors inside a square pyramid",
+      "options": [
+        "All four = 0",
+        "All four = 0.15",
+        "All four = 0.2",
+        "All four = 0.25"
+      ],
+      "key": [
+        "D"
+      ],
+      "solution": "The planar base has F₁₁ = 0. Symmetry makes its four side-face view factors equal. Their sum must be one, so each is 1/4 = 0.25.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Radiation properties and view factors",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M9/M9TeacherSlides.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          0.245,
+          0.255
+        ],
+        "unit": "each base-to-side view factor",
+        "value": 0.25
+      },
+      "imageSha256": "fbbcdc1d7b687ef4df36bf5af4e588dea60f944179af019294d15b174d83cdd5"
+    },
+    {
+      "id": 54,
+      "chapter": 6,
+      "year": 2017,
+      "paperQuestion": 118,
+      "type": "MCQ",
+      "image": "assets/questions/image54.png",
+      "title": "Counterflow effectiveness: 2017",
+      "options": [
+        "0.20",
+        "0.25",
+        "0.30",
+        "0.35",
+        "0.75 · corrected choice"
+      ],
+      "key": [
+        "E"
+      ],
+      "solution": "For an adiabatic exchanger, Cₕ(250 − 100) = C꜀(80 − 50), so C꜀ = 5Cₕ and Cmin = Cₕ. Standard effectiveness ε = Q/[Cmin(Th,in − Tc,in)] = 150/(250 − 50) = 0.75. None of the four printed choices is correct; use the added corrected choice E.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat exchangers",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M7/M7TeacherSlides.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          0.748,
+          0.752
+        ],
+        "unit": "dimensionless",
+        "value": 0.75
+      },
+      "editorial": "Printed option defect: none of A–D matches standard heat-exchanger effectiveness. Choice E is an editorial correction; the original screenshot is preserved.",
+      "imageSha256": "89e711602f81c6b3838909da192a688b390e26bba0adfc22b0952bcf1da764b9"
+    },
+    {
+      "id": 55,
+      "chapter": 6,
+      "year": 2018,
+      "paperQuestion": 29,
+      "type": "MCQ",
+      "image": "assets/questions/image55.png",
+      "title": "Counterflow effectiveness: 2018",
+      "options": [
+        "0.35",
+        "0.34",
+        "0.33",
+        "0.32",
+        "0.7273 · corrected choice"
+      ],
+      "key": [
+        "E"
+      ],
+      "solution": "Energy balance gives Cₕ × 120 = C꜀ × 55, so Cmin = Cₕ. Standard effectiveness ε = 120/(200 − 35) = 0.72727. The printed 0.33 is the cold-side temperature ratio, not standard exchanger effectiveness. The corrected choice E is added for graded practice.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat exchangers",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M7/M7TeacherSlides.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          0.7252727,
+          0.7292727
+        ],
+        "unit": "dimensionless",
+        "value": 0.7272727
+      },
+      "editorial": "Printed option defect: none of A–D matches standard heat-exchanger effectiveness. Choice E is an editorial correction; the original screenshot is preserved.",
+      "imageSha256": "c343a970bd40551784ac3c5f5099b8730c5b8ce18a6a351b25b94e1596a846e9"
+    },
+    {
+      "id": 56,
+      "chapter": 6,
+      "year": 2020,
+      "paperQuestion": 59,
+      "type": "MCQ",
+      "image": "assets/questions/image56.png",
+      "title": "Heat-exchanger energy balance",
+      "options": [
+        "17.6 MJ/min",
+        "15.0 MJ/min",
+        "12.6 MJ/min",
+        "10.0 MJ/min"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "The heat gained by water equals heat lost by gas: Q = 50 × 4.186 × (110 − 50) = 12558 kJ/min = 12.558 MJ/min. This is the magnitude of the gas enthalpy-rate decrease, nearest option C.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat exchangers",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M7/M7TeacherSlides.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          12.458,
+          12.658
+        ],
+        "unit": "MJ/min",
+        "value": 12.558
+      },
+      "imageSha256": "0afcee391f75bdccafeda53fda1439556c26e83454f7d1277db6a2327d1bde8e"
+    },
+    {
+      "id": 57,
+      "chapter": 6,
+      "year": 2022,
+      "paperQuestion": 96,
+      "type": "MCQ",
+      "image": "assets/questions/image57.png",
+      "title": "Comparing fouling factors",
+      "options": [
+        "Sea water",
+        "Refrigerating liquid",
+        "Fuel oil",
+        "Industrial air"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "Typical design tables give fuel-oil fouling resistance around 0.0009 m²·K/W, greater than the values for the other listed fluids under usual tabulated conditions. Fouling factors are empirical design values and vary with service conditions.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat exchangers",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M7/M7TeacherSlides.pdf"
+        }
+      ],
+      "imageSha256": "79f896e2af8d38402eaa4ea2aef5c8af5a27d9f0aeb669cfb4952399b1608013"
+    },
+    {
+      "id": 58,
+      "chapter": 6,
+      "year": 2023,
+      "paperQuestion": 70,
+      "type": "MCQ",
+      "image": "assets/questions/image58.png",
+      "title": "Total heat transfer in a double-pipe exchanger",
+      "options": [
+        "78.3 kW",
+        "189.5 kW",
+        "241.3 kW",
+        "280.6 kW"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "Compute directly from the water side: Q = (68/60) × 4180 × (75 − 35) = 189493.33 W = 189.49 kW. Oil heat capacity and overall U are unnecessary for this heat-duty calculation.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat exchangers",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M7/M7TeacherSlides.pdf"
+        }
+      ],
+      "nat": {
+        "range": [
+          189.3933333,
+          189.5933333
+        ],
+        "unit": "kW",
+        "value": 189.4933333
+      },
+      "imageSha256": "69ace465d2e32f3799e6c7fc5e0fccf284b8b7b567e14e04a63578dca7183554"
+    },
+    {
+      "id": 59,
+      "chapter": 6,
+      "year": 2026,
+      "paperQuestion": 98,
+      "type": "MCQ",
+      "image": "assets/questions/image59.png",
+      "title": "Temperature and velocity effects on fouling",
+      "options": [
+        "Decrease temperature, increase velocity",
+        "Increase temperature, decrease velocity",
+        "Independent of temperature, increase velocity",
+        "Decrease temperature, independent of velocity"
+      ],
+      "key": [
+        "B"
+      ],
+      "solution": "In the intended scaling/deposition trend, higher temperature promotes deposition and lower velocity reduces the surface shear that removes deposits. Thus increasing temperature and decreasing velocity tend to increase fouling. Actual trends depend on the fouling mechanism.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "NPTEL · Heat exchangers",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M7/M7TeacherSlides.pdf"
+        }
+      ],
+      "imageSha256": "c290885d15afc80778c770d39ea5a8aafe4f9dd3ded9b4ac9dfed31409db8079"
+    },
+    {
+      "id": 60,
+      "chapter": 7,
+      "year": 2018,
+      "paperQuestion": 66,
+      "type": "MCQ",
+      "image": "assets/questions/image60.png",
+      "title": "Solar-coating selectivity ratio",
+      "options": [
+        "Solar absorption / thermal infrared emission",
+        "Solar emission / thermal infrared absorption",
+        "Solar reflection / thermal infrared absorption",
+        "Solar absorption / thermal infrared reflection"
+      ],
+      "key": [
+        "A"
+      ],
+      "solution": "Solar selectivity is high solar-band absorptivity divided by low thermal-infrared emissivity: αsolar/εIR. This improves solar energy absorption while limiting thermal radiation loss.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "Tervo & Steiner · Spectrally selective solar absorbers",
+          "url": "https://arxiv.org/abs/2112.09134"
+        }
+      ],
+      "imageSha256": "0cbbfac9a3cf368af738bbd5ee6334e38c658853f8c73a0bfb67b2bf216692d1"
+    },
+    {
+      "id": 61,
+      "chapter": 7,
+      "year": 2020,
+      "paperQuestion": 64,
+      "type": "MCQ",
+      "image": "assets/questions/image61.png",
+      "title": "Spectrally selective surface",
+      "options": [
+        "Absorber",
+        "Emitter",
+        "Selective",
+        "Black"
+      ],
+      "key": [
+        "C"
+      ],
+      "solution": "A surface that strongly absorbs short-wave solar radiation while weakly emitting long-wave thermal radiation is spectrally selective. It is not a black body, which emits and absorbs strongly across all wavelengths.",
+      "verified": "Independently solved · reference checked",
+      "sources": [
+        {
+          "title": "Tervo & Steiner · Spectrally selective solar absorbers",
+          "url": "https://arxiv.org/abs/2112.09134"
+        }
+      ],
+      "imageSha256": "d56ac80457a308e5973bf623930c15311d1860640987201c5361cbb46862069e"
+    }
+  ]
+}
